@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: yellow;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - (80px + 30px + 30px));
+}
+
+section {
+    color: white;
+    background-color: red;
+    width: 70%;
+    padding: 5px 20px;
+}
+
+aside {
+    background-color: blue;
+    width: 30%;
+}
+
+footer {
+    background-color: yellow;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
