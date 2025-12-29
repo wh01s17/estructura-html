@@ -32,7 +32,9 @@ section {
 
 aside {
     background-color: blue;
+    color: white;
     width: 30%;
+    padding: 5px;
 }
 
 footer {
